@@ -4,6 +4,7 @@ const Logo = () => {
 	return (
 		<div style={{ textAlign: "center", color: "#fff", fontFamily: "Georgia, 'Times New Roman', Times, serif" }}>
 			<div style={{ fontSize: "65px", fontWeight: "bold", color: "red" }}>
+				YING
 			</div>
 			<div style={{ fontSize: "16px" }}>
 				Institute
