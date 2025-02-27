@@ -16,6 +16,7 @@ const Card = ({
 	title ,
 	location ,
 	imageUrl,
+	instructor,
 }) => {
 	return (
 		<div className={styles.card}>
@@ -39,11 +40,16 @@ const Card = ({
 					<MapPinIcon className="h-5 w-5 text-gray-400" />
 					<span>{location}</span>
 				</div>
+				
+				{/* Ajouter l'instructeur */}
+				<div className={styles.eventInstructor}>
+					<UsersIcon className="h-5 w-5 text-gray-400" />
+					<span>{instructor}</span>
+				</div>
 			</div>
 
 			{/* Footer avec icônes */}
 			<div className={styles.cardFooter}>
-				<UsersIcon className="h-5 w-5 text-gray-400" />
 				<ChartBarIcon className="h-5 w-5 text-gray-400" />
 				<ShareIcon className="h-5 w-5 text-gray-400" />
 			</div>
