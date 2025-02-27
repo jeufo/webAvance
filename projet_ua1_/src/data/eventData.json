@@ -1,0 +1,40 @@
+[
+	{
+		"id": 1,
+		"date": "lundi, 12 Avril | 10:00 am",
+		"title": "Bases du Jiu-Jitsu Brazilien",
+		"location": "Dojo Principal",
+		"description": "introduction au jiu-jitsu brazilien et fondamentaux.",
+		"imageUrl": "/events/bjj.jpeg",
+		"instructor": "Rosni Durand"
+	},
+	{
+		"id": 2,
+		"date": "mercredi, 14 Avril | 7:00 pm",
+		"title": "Muay Thai Intermédiaire",
+		"location": " salle de Gymnase",
+		"description": "Techniques intermédiaires et combinaisons en Muay Thai.",
+		"imageUrl": "/events/muay_thai.jpg",
+		"instructor": "Jeufo Tsamo"
+	},
+	{
+		"id": 3,
+		"date": "vendredi, 23 Avril | 5:00 pm",
+		"title": "Karaté Avancé pour experts",
+		"location": "Dojo Principal",
+		"description": "Techniques avancées de karaté et sessions de sparring.",
+		"imageUrl": "/events/karate.jpg",
+		"instructor": "Jayson Lefebvre"
+	},
+	{
+		"id": 4,
+		"date": "Saturday, 1 May | 10:00 am",
+		"title": "Coups de pied Taekwondo",
+		"location": "Dojo Principal",
+		"description": "Concentration sur les coups de pied à hauteur de tête, les coups de pied sautés et tournants en Taekwondo.",
+		"imageUrl": "/events/tkd.jpg",
+		"instructor": "Emily Davis"
+	}
+
+	
+]
