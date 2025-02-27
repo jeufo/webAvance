@@ -27,6 +27,26 @@ const martialArts = [
 	},
 ];
 
+const instructors = [
+	{
+		name: "Rosni Durand",
+		description: " Expert en Jiu-Jitsu Brazilien avec 10 ans d'expérience.",
+	},
+	{
+		name: "Jeufo Tsamo",
+		description: " Champion de Muay Thai et entraineur expérimenté.",
+	},
+	{
+		name: "jayson lefebvre",
+		description: "ceinture noire de karate et instructeur expérimenté.",
+	},
+	{
+		name: "Emily Davis ",
+		description: " maitre de taekwondo avec nombreuses médailles.",
+	},
+];
+
+
 
 export default function Home() {
 	return (
