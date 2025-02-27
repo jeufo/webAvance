@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
 				</div>
 				<div className="content">{children}</div>
 				<div className="footer">
-					© Collège La Cité | Site web personnel de l'étudiant Rosni Durand
+					© Collège La Cité | Site web personnel de l'étudiant Rosni Durand et jayson lefebvre
 				</div>
 			</body>
 		</html>
