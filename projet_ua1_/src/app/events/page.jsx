@@ -7,7 +7,6 @@ const pageEvents = () => {
 		<div className={styles.container}>
 			<h1 className={styles.title}>Calendrier des cours</h1>
 			<div className={styles.description}>
-				Consultez notre calendrier pour découvrir les prochains cours de différents arts martiaux. Trouvez les horaires, les lieux et les descriptions des cours pour planifier votre entraînement.
 			</div>
 			<div className={styles.cardContainer}>
 				{eventData.map((event) => (
@@ -18,6 +17,7 @@ const pageEvents = () => {
 						title={event.title}
 						location={event.location}
 						imageUrl={event.imageUrl}
+						instructor={event.instructor}
 					/>
 				))}
 			</div>
